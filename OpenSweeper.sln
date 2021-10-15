@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSweeper", "OpenSweeper.csproj", "{C5A404BE-94FF-49C3-A325-DF474A61536E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5A404BE-94FF-49C3-A325-DF474A61536E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A404BE-94FF-49C3-A325-DF474A61536E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A404BE-94FF-49C3-A325-DF474A61536E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A404BE-94FF-49C3-A325-DF474A61536E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15724000-2B47-460A-8F41-21115B2F18B1}
+	EndGlobalSection
+EndGlobal
