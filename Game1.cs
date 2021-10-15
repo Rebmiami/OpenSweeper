@@ -7,7 +7,7 @@ namespace OpenSweeper
 	public class Game1 : Game
 	{
 		private GraphicsDeviceManager _graphics;
-		private SpriteBatch _spriteBatch;
+		private SpriteBatch spriteBatch;
 
 		public Game1()
 		{
@@ -23,9 +23,13 @@ namespace OpenSweeper
 			base.Initialize();
 		}
 
+		public Texture2D tiles;
+
 		protected override void LoadContent()
 		{
-			_spriteBatch = new SpriteBatch(GraphicsDevice);
+			spriteBatch = new SpriteBatch(GraphicsDevice);
+
+			tiles = ImageLoader.LoadTexture(@".\Mines.png", GraphicsDevice);
 
 			// TODO: use this.Content to load your game content here
 		}
@@ -42,7 +46,7 @@ namespace OpenSweeper
 
 		protected override void Draw(GameTime gameTime)
 		{
-			GraphicsDevice.Clear(Color.CornflowerBlue);
+			GraphicsDevice.Clear(Color.Black);
 
 			// TODO: Add your drawing code here
 
